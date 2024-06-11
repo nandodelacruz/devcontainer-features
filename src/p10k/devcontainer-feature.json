@@ -1,0 +1,42 @@
+{
+    "name": "Powerlevel10k",
+    "id": "p10k",
+    "version": "1.0.0",
+    "description": "zsh, oh-my-zsh, and Powerlevel10k",
+    "options": {
+        "config": {
+            "type": "string",
+            "proposals": [
+                "~/.p10k.zsh"
+            ],
+            "default": "./.p10k.zsh",
+            "description": ".p10k.zsh file location"
+        },
+        "plugins": {
+            "type": "string",
+            "default": "aws docker git helm kubectl kubectx mvn npm vi-mode zsh-autosuggestions nvm fzf yarn sdk node",
+            "proposals": [
+                "aws docker git helm kubectl kubectx mvn npm vi-mode zsh-autosuggestions nvm fzf yarn sdk node"
+            ],
+            "description": "Space separated list of ZSH plugin names that will be added to .zshrc"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true,
+            "configureZshAsDefaultShell": true,
+            "installOhMyZsh": true,
+            "installOhMyZshConfig": true
+        }
+    },
+    "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.fontfamily": "MesloLGS NF"
+      }
+    }
+  }
+}
