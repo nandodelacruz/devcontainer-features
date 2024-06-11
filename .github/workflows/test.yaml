@@ -13,8 +13,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
           - p10k
         baseImage:
           - debian:latest
@@ -35,8 +33,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
           - p10k
     steps:
       - uses: actions/checkout@v3
