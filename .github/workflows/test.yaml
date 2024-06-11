@@ -15,6 +15,7 @@ jobs:
         features:
           - color
           - hello
+          - p10k
         baseImage:
           - debian:latest
           - ubuntu:latest
