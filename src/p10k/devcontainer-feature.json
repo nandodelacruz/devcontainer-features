@@ -1,7 +1,7 @@
 {
     "name": "Powerlevel10k",
     "id": "p10k",
-    "version": "1.0.0",
+    "version": "2",
     "description": "zsh, oh-my-zsh, and Powerlevel10k",
     "options": {
         "config": {
