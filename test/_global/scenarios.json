@@ -9,5 +9,14 @@
                 "greeting": "Greetings"
             }
         }
+    },
+    "p10k": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "p10k": {
+                "config": "~/.p10k.zsh",
+                "plugins": "aws git"
+            }
+        }
     }
 }
