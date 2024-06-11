@@ -37,6 +37,7 @@ jobs:
         features:
           - color
           - hello
+          - p10k
     steps:
       - uses: actions/checkout@v3
 
