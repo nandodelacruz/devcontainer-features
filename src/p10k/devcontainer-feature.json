@@ -4,14 +4,6 @@
     "version": "1.0.1",
     "description": "zsh, oh-my-zsh, and Powerlevel10k",
     "options": {
-        "config": {
-            "type": "string",
-            "proposals": [
-                "~/.p10k.zsh"
-            ],
-            "default": "./.p10k.zsh",
-            "description": ".p10k.zsh file location"
-        },
         "plugins": {
             "type": "string",
             "default": "aws docker git helm kubectl kubectx mvn npm vi-mode zsh-autosuggestions nvm fzf yarn sdk node",
