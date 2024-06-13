@@ -17,6 +17,10 @@
             ]
         }
     },
+    "mounts": [
+        "source=${localEnv:HOME}/.netrc,target=/root/.netrc,type=bind,consistency=cached",
+        "source=${localEnv:HOME}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached"
+    ],
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
