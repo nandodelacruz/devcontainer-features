@@ -3,13 +3,7 @@ set -e
 
 echo "Activating feature 'p10k'"
 
-CONFIG=${CONFIG:-undefined}
-if [ -f $CONFIG ]; then
-    echo "Using provided p10k configuration file: $CONFIG"
-else
-    echo "No p10k configuration file provided. Using default configuration."
-    CONFIG='./.p10k.zsh'
-fi
+CONFIG='./.p10k.zsh'
 PLUGINS=${PLUGINS:-undefined}
 
 # The 'install.sh' entrypoint script is always executed as the root user.
