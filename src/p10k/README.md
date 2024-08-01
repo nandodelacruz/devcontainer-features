@@ -15,7 +15,6 @@ zsh, oh-my-zsh, and Powerlevel10k
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| config | .p10k.zsh file location | string | ./.p10k.zsh |
 | plugins | Space separated list of ZSH plugin names that will be added to .zshrc | string | aws docker git helm kubectl kubectx mvn npm vi-mode zsh-autosuggestions nvm fzf yarn sdk node |
 
 
