@@ -1,13 +1,13 @@
 
-# My Favorite Color (color)
+# yq (yq)
 
-A feature to remind you of your favorite color
+yq
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/nandodelacruz/devcontainer-features/color:1": {}
+    "ghcr.io/nandodelacruz/devcontainer-features/yq:1": {}
 }
 ```
 
@@ -15,10 +15,10 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+| version | - | string | v4.44.2 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nandodelacruz/devcontainer-features/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nandodelacruz/devcontainer-features/blob/main/src/yq/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
