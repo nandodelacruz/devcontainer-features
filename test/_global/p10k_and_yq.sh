@@ -19,6 +19,9 @@ check "using p10k theme" cat ~/.zshrc | grep "ZSH_THEME=\"powerlevel10k/powerlev
 check "plugins are configured" cat ~/.zshrc | grep "plugins=(aws git)"
 check "powerlevel10k is configured" test -f ~/.p10k.zsh
 
+check "yq is installed" yq --version
+check "should have specific version" bash -c "yq --version | grep 'version v4.44.1'"
+
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
 reportResults
