@@ -1,0 +1,23 @@
+{
+    "name": "yq",
+    "id": "yq",
+    "version": "1.0.0",
+    "description": "yq",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "v4.44.2"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": false,
+            "configureZshAsDefaultShell": false,
+            "installOhMyZsh": false,
+            "installOhMyZshConfig": false
+        }
+    },
+}

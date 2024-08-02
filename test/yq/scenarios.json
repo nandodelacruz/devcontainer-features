@@ -1,10 +1,7 @@
 {
-    "p10k_and_yq": {
+    "yq": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "p10k": {
-                "plugins": "aws git"
-            },
             "yq": {
                 "version": "v4.44.1"
             }
